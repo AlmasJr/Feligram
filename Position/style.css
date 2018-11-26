@@ -1,0 +1,44 @@
+
+
+.first-box {
+	color: #000;
+	border: 2px solid;
+	display: inline-block;
+}
+
+.second-box {
+	color: #000;
+	border: 2px solid;
+	display: inline-block;
+}
+
+.third-box {
+	color: #000;
+	border: 2px solid;
+	display: inline-block;
+} 
+
+.th-boxes-relative .second-box {
+	position: relative;
+	top: 15px;
+	left: 15px;
+}
+
+.th-boxes-absolute {
+	position: relative;
+}
+
+.th-boxes-absolute .second-box {
+	position: absolute;
+	top: 90px;
+	left: 35px;
+}
+
+.th-boxes-fixed {
+	margin-top: 75px;
+}
+
+.th-boxes-fixed .second-box {
+	position: fixed;
+	top: 50px;
+}
