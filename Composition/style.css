@@ -18,6 +18,10 @@ body {
 	*zoom: 1;
 }
 
+a {
+	text-decoration: none;
+}
+
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
@@ -81,4 +85,12 @@ body {
 
 .menu-items a:hover {
 	color: #ee9395;
+}
+
+.headline p {
+	font-size: 22px;
+	color: #333333;
+	text-align: center;
+	padding: 40px 125px 40px 125px;
+	margin: 0;
 }
