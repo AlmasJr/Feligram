@@ -22,6 +22,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: #ee9395;
+}
+
 p, h1, h2, h3, h4, h5 {
 	margin: 0;
 	font-weight: normal;
@@ -135,6 +139,28 @@ p, h1, h2, h3, h4, h5 {
 
 .services {
 	margin-top: 40px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	padding-bottom: 60px;
+}
+
+.services h3 {
+	font-size: 18px;
+	font-weight: normal;
+	color: #666666;
+	padding-top: 10px;
+	margin-left: 50px;
+}
+
+.services p {
+	font-size: 14px;
+	color: #979797;
+	margin-top: 18px;
+	margin-bottom: 14px;
+}
+
+.services a {
+	color: #e2494b;
+	font-size: 14px;
 }
 
 .first-service {
@@ -144,26 +170,6 @@ p, h1, h2, h3, h4, h5 {
 
 .first-service img {
 	float: left;
-}
-
-.first-service h3 {
-	font-size: 18px;
-	font-weight: normal;
-	color: #666666;
-	padding-top: 10px;
-	margin-left: 50px;
-}
-
-.first-service p {
-	font-size: 14px;
-	color: #979797;
-	margin-top: 18px;
-	margin-bottom: 14px;
-}
-
-.first-service a {
-	color: #e2494b;
-	font-size: 14px;
 }
 
 .second-service {
@@ -176,26 +182,6 @@ p, h1, h2, h3, h4, h5 {
 	float: left;
 }
 
-.second-service h3 {
-	font-size: 18px;
-	font-weight: normal;
-	color: #666666;
-	padding-top: 10px;
-	margin-left: 50px;
-}
-
-.second-service p {
-	font-size: 14px;
-	color: #979797;
-	margin-top: 18px;
-	margin-bottom: 14px;
-}
-
-.second-service a {
-	color: #e2494b;
-	font-size: 14px;
-}
-
 .third-service {
 	float: right;
 	width: 33%;
@@ -205,24 +191,82 @@ p, h1, h2, h3, h4, h5 {
 	float: left;
 }
 
-.third-service h3 {
-	font-size: 18px;
-	font-weight: normal;
-	color: #666666;
-	padding-top: 10px;
-	margin-left: 50px;
+.players-header {
+	width: 176px;
+	margin-top: -19px;
+	padding-left: 393px;
 }
 
-.third-service p {
+.players-header p {
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+	background-color: #e2494b;
+	font-size: 18px;
+	margin: 0;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-radius: 5px;
+}
+
+.players li {
+	display: inline-block;
+	padding-right: 17px;
+	list-style-type: none;
+	margin: 0;
+
+}
+
+.players li:last-child {
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+.players ul {
+	margin-top: 40px;
+	padding: 0;
+}
+
+.players p {
+	padding-bottom: 15px;
 	font-size: 14px;
 	color: #979797;
-	margin-top: 18px;
-	margin-bottom: 14px;
 }
 
-.third-service a {
+.players a {
 	color: #e2494b;
 	font-size: 14px;
 }
 
+.first-player {
+	float: left;
+	width: 175px;
+}
 
+.second-player {
+	float: left;
+	width: 175px;
+	padding-left: 22px;
+}
+
+.third-player {
+	float: left;
+	width: 175px;
+	padding-left: 21px;
+}
+
+.fourth-player {
+	float: left;
+	width: 175px;
+	padding-left: 25px;
+}
+
+.fifth-player {
+	float: right;
+	width: 175px;
+}
+
+.player-name {
+	font-weight: bold;
+}
