@@ -2,53 +2,56 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial scale=1">
 	<title>Company</title>
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="wrapper">
-	<div class="logo">
-		<img src="images/logo.jpg" alt="Logo">
-	</div>
-
-	<div class="menu">
-		<ul>
-			<li><a href="index.html">Aktuelles</a></li>
-			<li><a href="">Philosophie</a></li>
-			<li><a href="" class="item-td">Besonderheiten</a></li>
-			<li><a href="">Partner</a></li>
-			<li><a href="">Kontakt</a></li>
-			<li><a href="">Impressum</a></li>
-		</ul>
-	</div>
-
-	<div class="content-img">
-		<img src="images/content-img.jpg" alt="Company">
-	</div>
-
-	<div class="content clearfix">
-		<div class="first-content">
-			<h1>Sehr geehrte Patienten,</h1>
-			<div class="ft-content-text">
-				<p>wir freuen uns, dass Sie sich für unsere Praxis für moderne Zahnheilkunde interessieren – herzlich willkommen!</p>
-				<p>Die Homepage soll Ihnen einen ersten Einblick in das Leistungsspektrum und die Behandlungsphilosophie vermitteln. Es wird Sie interessieren, wie schonend und sorgsam ein Zahnarztbesuch sein kann.</p>
-				<p>Sie sind herzlich eingeladen, sich bei einem Besuch in meiner Praxis mit ihren Fragen und Wünschen anzuvertrauen.</p><br>
-				<p>Ihre Dr. Dr. Günther Chmelitschek und Dr. Thomas Chmelitschek</p>
-			</div>
+  <div class="wrapper">
+	<header class="header">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
+		</div>
+		
+		<nav class="menu">
+			<ul>
+				<li><a class="menu-item" href="index.html">Aktuelles</a></li>
+				<li><a class="menu-item" href="">Philosophie</a></li>
+				<li><a class="menu-item" href="" class="item-td">Besonderheiten</a></li>
+				<li><a class="menu-item" href="">Partner</a></li>
+				<li><a class="menu-item" href="">Kontakt</a></li>
+				<li><a class="menu-item" href="">Impressum</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="main">
+		<div class="content-img">
+			<img src="images/content-img.jpg" alt="Company">
 		</div>
 
-		<div class="second-content">
-			<h1>Sprechzeiten</h1>
-			<div class="sd-content-text">
-				<p>Zahnarztpraxis Dr. Dr. Chmelitschek<br> Stollstr. 6<br> 83022 Rosenheim</p>
-				<p>Mo-Fr von 08:00-18:00 Uhr<br> und nach Vereinbarung</p>
-			</div>
-		</div>		
-	</div>
-	<div class="author">
+		<section class="content clearfix">
+			<article class="first-content">
+				<h1>Sehr geehrte Patienten,</h1>
+				<div class="ft-content-text">
+					<p>wir freuen uns, dass Sie sich für unsere Praxis für moderne Zahnheilkunde interessieren – herzlich willkommen!</p>
+					<p>Die Homepage soll Ihnen einen ersten Einblick in das Leistungsspektrum und die Behandlungsphilosophie vermitteln. Es wird Sie interessieren, wie schonend und sorgsam ein Zahnarztbesuch sein kann.</p>
+					<p>Sie sind herzlich eingeladen, sich bei einem Besuch in meiner Praxis mit ihren Fragen und Wünschen anzuvertrauen.</p><br>
+					<p>Ihre Dr. Dr. Günther Chmelitschek und Dr. Thomas Chmelitschek</p>
+				</div>
+			</article>
+			<article class="second-content">
+				<h1>Sprechzeiten</h1>
+				<div class="sd-content-text">
+					<p>Zahnarztpraxis Dr. Dr. Chmelitschek<br> Stollstr. 6<br> 83022 Rosenheim</p>
+					<p>Mo-Fr von 08:00-18:00 Uhr<br> und nach Vereinbarung</p>
+				</div>
+			</article>		
+		</section>
+	</main>
+	<footer class="author">
 			<p>Zahnarztpraxis Chmelitschek © 2011</p>
-		</div>
+		</footer>
 	</div>
 </body>
 </html>
