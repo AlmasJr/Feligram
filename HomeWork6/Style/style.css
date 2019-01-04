@@ -121,3 +121,32 @@ p {
 	color: #5f5d67;
 	padding-bottom: 45px;
 }
+
+
+@media(min-width: 756px){
+
+	.site {
+		background: url(../images/body-bg.jpg);
+	}
+
+	.menu-item {
+		display: inline-block;
+		width: 16.66666666666667%; 
+		font-size: 14px;
+		box-sizing: border-box;
+	}
+
+	.about-company {
+		width: 55.02645502645503%; /* 476px / 756px */
+		padding: 3.968253968253968%; /* 30px / 756px */
+		float: left;
+
+	}
+
+	.company-address {
+		width: 28.57142857142857%; /* 276px / 756px */
+		padding: 3.968253968253968%; /* 30px / 756px */
+		padding-right: 1.587301587301587%; /* 12px / 756px */
+		float: right;
+	}
+}
